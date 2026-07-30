@@ -1,0 +1,94 @@
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.banner-icon {
+  height: 15px;
+  width: auto;
+  padding: 0, 1rem;
+}
+
+.wf-gov-header {
+  text-align: left;
+  background-color: #f0f0f0;
+}
+
+.header-container {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  box-sizing: border-box;
+}
+
+.wf-gov-header_text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#header-helpful-link {
+  margin-left: 0.6rem;
+  color: #254ba1;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.dropdown-identify {
+  cursor: pointer;
+  margin-left: 0.6rem;
+  color: #254ba1;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.identify-banner {
+  display: none;
+  width: 100%;
+}
+
+.caret {
+  text-decoration: none;
+}
+
+.caret-down {
+  display: inline;
+}
+
+.caret-up {
+  display: none;
+}
+
+.toggle-checkbox:checked ~ .dropdown-identify .caret-down {
+  display: none;
+}
+
+.toggle-checkbox:checked ~ .dropdown-identify .caret-up {
+  display: inline;
+}
+
+header:has(.toggle-checkbox:checked) .identify-banner {
+  display: block;
+}
+
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  background-color: #f0f0f0;
+  min-height: 6em;
+  flex-wrap: wrap;
+}
+
+.banner-item {
+  display: flex;
+  margin-right: 5%;
+}

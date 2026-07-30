@@ -1,0 +1,282 @@
+[
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Secondary",
+    "Direction": "N",
+    "StartLatitude": 100,
+    "StartLongitude": 100,
+    "EndLatitude": 100,
+    "EndLongitude": 60,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Secondary",
+    "Direction": "N",
+    "StartLatitude": 100,
+    "StartLongitude": 60,
+    "EndLatitude": 100,
+    "EndLongitude": -100,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Secondary",
+    "Direction": "N",
+    "StartLatitude": 100,
+    "StartLongitude": 60,
+    "EndLatitude": 100,
+    "EndLongitude": 50,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Secondary",
+    "Direction": "N",
+    "StartLatitude": 100,
+    "StartLongitude": 50,
+    "EndLatitude": 100,
+    "EndLongitude": -20,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Secondary",
+    "Direction": "N",
+    "StartLatitude": 100,
+    "StartLongitude": -20,
+    "EndLatitude": 100,
+    "EndLongitude": -30,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Secondary",
+    "Direction": "N",
+    "StartLatitude": 100,
+    "StartLongitude": -30,
+    "EndLatitude": 100,
+    "EndLongitude": -150,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Secondary",
+    "Direction": "S",
+    "StartLatitude": 115,
+    "StartLongitude": -150,
+    "EndLatitude": 115,
+    "EndLongitude": -30,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Secondary",
+    "Direction": "S",
+    "StartLatitude": 115,
+    "StartLongitude": -30,
+    "EndLatitude": 115,
+    "EndLongitude": -20,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Secondary",
+    "Direction": "S",
+    "StartLatitude": 115,
+    "StartLongitude": -20,
+    "EndLatitude": 115,
+    "EndLongitude": 50,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Secondary",
+    "Direction": "S",
+    "StartLatitude": 115,
+    "StartLongitude": 50,
+    "EndLatitude": 115,
+    "EndLongitude": 60,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Secondary",
+    "Direction": "S",
+    "StartLatitude": 115,
+    "StartLongitude": 60,
+    "EndLatitude": 115,
+    "EndLongitude": 100,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "W",
+    "StartLatitude": 115,
+    "StartLongitude": -20,
+    "EndLatitude": 100,
+    "EndLongitude": -20,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "W",
+    "StartLatitude": 100,
+    "StartLongitude": -20,
+    "EndLatitude": 30,
+    "EndLongitude": -20,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "W",
+    "StartLatitude": 30,
+    "StartLongitude": -30,
+    "EndLatitude": 30,
+    "EndLongitude": -20,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "W",
+    "StartLatitude": 30,
+    "StartLongitude": -20,
+    "EndLatitude": -60,
+    "EndLongitude": -20,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "E",
+    "StartLatitude": -60,
+    "StartLongitude": -20,
+    "EndLatitude": -60,
+    "EndLongitude": -130,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "E",
+    "StartLatitude": -60,
+    "StartLongitude": -130,
+    "EndLatitude": 30,
+    "EndLongitude": -130,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "E",
+    "StartLatitude": 30,
+    "StartLongitude": -130,
+    "EndLatitude": 30,
+    "EndLongitude": -30,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "E",
+    "StartLatitude": 30,
+    "StartLongitude": -30,
+    "EndLatitude": 100,
+    "EndLongitude": -30,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "E",
+    "StartLatitude": 100,
+    "StartLongitude": -30,
+    "EndLatitude": 115,
+    "EndLongitude": -30,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "E",
+    "StartLatitude": -100,
+    "StartLongitude": 100,
+    "EndLatitude": -100,
+    "EndLongitude": 60,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "E",
+    "StartLatitude": -100,
+    "StartLongitude": 60,
+    "EndLatitude": -100,
+    "EndLongitude": 50,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "E",
+    "StartLatitude": -100,
+    "StartLongitude": 50,
+    "EndLatitude": 100,
+    "EndLongitude": 50,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "E",
+    "StartLatitude": 100,
+    "StartLongitude": 50,
+    "EndLatitude": 115,
+    "EndLongitude": 50,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "W",
+    "StartLatitude": 115,
+    "StartLongitude": 60,
+    "EndLatitude": 100,
+    "EndLongitude": 60,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "W",
+    "StartLatitude": 100,
+    "StartLongitude": 60,
+    "EndLatitude": -100,
+    "EndLongitude": 60,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Central",
+    "Type": "Local",
+    "Direction": "W",
+    "StartLatitude": 100,
+    "StartLongitude": 60,
+    "EndLatitude": -100,
+    "EndLongitude": 60,
+    "RotateDegree": 90
+  },
+  {
+    "RoadName": "Westfield Avenue 2",
+    "Type": "Primary",
+    "Direction": "W",
+    "StartLatitude": 100,
+    "StartLongitude": -150,
+    "EndLatitude": -100,
+    "EndLongitude": -150,
+    "RotateDegree": 90
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "BusStopCode": "10019",
+    "RoadName": "Westfield Ctrl",
+    "Description": "Westfield Int",
+    "Latitude": 0,
+    "Longitude": 0
+  },
+  {
+    "BusStopCode": "10019A",
+    "RoadName": "Westfield Ctrl",
+    "Description": "Westfield Int (Sawteeth)",
+    "Latitude": -15,
+    "Longitude": 0
+  },
+  {
+    "BusStopCode": "10019B",
+    "RoadName": "Westfield Ctrl",
+    "Description": "Westfield Int (End-on)",
+    "Latitude": 15,
+    "Longitude": 0
+  },
+  {
+    "BusStopCode": "10709",
+    "RoadName": "Westfield St 6",
+    "Description": "Westfield Nth Depot",
+    "Latitude": 150,
+    "Longitude": 0
+  },
+  {
+    "BusStopCode": "22099",
+    "RoadName": "Airport Lk",
+    "Description": "Airport Temp Pk",
+    "Latitude": 200,
+    "Longitude": 0
+  },
+  {
+    "BusStopCode": "21409",
+    "RoadName": "Kampong Buloh",
+    "Description": "Buloh Business Pk Ter",
+    "Latitude": 300,
+    "Longitude": 0
+  },
+  {
+    "BusStopCode": "13209",
+    "RoadName": "Westfield Victoria Rd",
+    "Description": "Westfield Victoria Int",
+    "Latitude": 400,
+    "Longitude": 0
+  },
+  {
+    "BusStopCode": "13659",
+    "RoadName": "Japanese Gardens Rd",
+    "Description": "Japanese Gardens Ter",
+    "Latitude": 500,
+    "Longitude": 0
+  }
+]

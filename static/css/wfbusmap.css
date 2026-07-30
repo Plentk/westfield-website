@@ -1,0 +1,95 @@
+#tooltip {
+  position: absolute;
+  background: #000;
+  color: #F0F0F0;
+  padding: 8px;
+  border-radius: 1rem;
+  display: none;
+  pointer-events: none;
+  font-size: 14px;
+}
+
+svg#wfbusmap {
+  background-color: #cdebb0;
+}
+
+.road-segment path {
+  stroke: #000000;
+  stroke-linecap: round;
+}
+
+.road-segment.Expressway path{
+  stroke-width: 30px;
+  stroke: #e892a2; 
+}
+
+.road-segment.Expressway text {
+  font-size: 25px;
+}
+
+.road-segment.Primary path {
+  stroke-width: 20px;
+  stroke: #fcd6a4;
+}
+
+.road-segment.Primary text {
+  font-size: 15px;
+}
+
+.road-segment.Secondary path {
+  stroke-width: 10px;
+  stroke: #f7fabf;
+}
+
+.road-segment.Secondary text {
+  font-size: 8px;
+}
+
+.road-segment.Local path {
+  stroke-width: 5px;
+  stroke: #ffffff;
+}
+
+.road-segment.Local text {
+  font-size: 4px;
+}
+
+.building path {
+  stroke-width: 0px;
+  stroke: #000000
+}
+
+.building.Transport path {
+  fill: #ccac66;
+}
+
+.hitbox {
+  fill: grey;
+}
+
+.tool_tip {
+  opacity: 0;
+  display: none;
+}
+
+.busstopblob:hover ~ .tool_tip, .busstopblob:active ~ .tool_tip {
+  display: block;
+  opacity: 100;
+}
+
+.busstopblob {
+  fill: #ea4e77;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.busstopblob:hover {
+  fill: #a62749;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: white;
+  display: none;
+  pointer-events: none;
+}

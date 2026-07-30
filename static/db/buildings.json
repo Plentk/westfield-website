@@ -1,0 +1,12 @@
+[
+  {
+    "RoadName": "Westfield Central",
+    "Description": "Westfield Bus Interchange",
+    "Abbreviation": "Westfield Bus Int",
+    "Category": "Transport",
+    "Type": "Bus Int",
+    "Longitude": -2.5,
+    "Latitude": 0,
+    "Path": "m -62.5 -15 l 155 0 l 0 30 l -175 0 l -10 0 l 0 -30 l 10 0 l 0 -120 l 20 0 z"
+  }
+]

@@ -1,0 +1,35 @@
+mark {
+  background-image: none;
+}
+
+.KLT {
+  background-color: #004aad;
+  color: white;
+}
+
+.OKEI {
+  background-color: #fea503;
+  color: #2e2a25;
+}
+
+.bus-route > .serviceTitle > .busOperator {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #00000000;
+}
+
+.bus-route.KLT > .serviceTitle > .busOperator {
+  background-image: url("../../static/img/keilutransit.png");
+  background-color: white;
+}
+
+.bus-route.OKEI > .serviceTitle > .busOperator {
+  background-image: url("../../static/img/OKEIbuses.png");
+  background-color: white;
+}
+
+.serviceStats {
+  font-family: 'Lato' !important;
+  margin: 8px;
+}
