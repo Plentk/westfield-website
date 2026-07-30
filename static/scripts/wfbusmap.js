@@ -49,7 +49,7 @@ function fetchJSONData(fileName, func) {
       }
       return response.json();  
     })
-    .then(data => console.log(data))
+    //.then(data => console.log(data))
     .then(data => func(data))  
     .catch(error => console.error('Failed to fetch data:', error)); 
 };
@@ -61,7 +61,7 @@ function create(type, attrs) {
 };
 
 function drawRoads(roadList) {
-  console.log(roadHierachy);
+  // console.log(roadHierachy);
   const adjustedRoadList = roadList
     .map(a => ({...a, typeRoadInt: roadHierachy[a.Type] || 0}))
     .sort((a, b) => {
@@ -70,9 +70,9 @@ function drawRoads(roadList) {
     .sort((a, b) => {
       return a.roadName > b.roadName;
     });
-  console.log(adjustedRoadList)
+  // console.log(adjustedRoadList)
   adjustedRoadList.forEach((road, index) => {
-    console.log(road);
+    // console.log(road);
     const roadGroup = create("g", {
         class:`road-segment ${road.Type} ${road.RoadName.replaceAll(" ", "_")} ${road.Direction}`,
       });
