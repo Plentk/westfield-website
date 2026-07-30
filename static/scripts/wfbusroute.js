@@ -6,7 +6,7 @@ async function loadFile(fileName) {
   try {
     const Fetched = await fetch(fileName);
     data  = await Fetched.json();
-    const BusStops = await fetch('../../static/db/westfield/busstops.json');
+    const BusStops = await fetch('../../static/db/busstops.json');
     busstopdata = await BusStops.json();
 
     renderBarseServe();

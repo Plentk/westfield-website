@@ -21,13 +21,13 @@ const toolTipMargin = 5;
 async function loadFiles() {
   try {
     let fetched;
-    fetched = await fetch("../../../static/db/westfield/roads.json");
+    fetched = await fetch("../../../static/db/roads.json");
     wfroadsdata = await fetched.json();  
-    fetched = await fetch("../../../static/db/westfield/wfbusroute.json");
+    fetched = await fetch("../../../static/db/wfbusroute.json");
     wfbusroutesdata = await fetched.json();
-    fetched = await fetch("../../../static/db/westfield/buildings.json");
+    fetched = await fetch("../../../static/db/buildings.json");
     wfbuildingsdata = await fetched.json();
-    fetched = await fetch("../../../static/db/westfield/busstops.json");
+    fetched = await fetch("../../../static/db/busstops.json");
     wfbusstopsdata = await fetched.json();
 
     drawRoads(wfroadsdata);
