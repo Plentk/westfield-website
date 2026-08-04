@@ -1,0 +1,59 @@
+.bus-route {
+  border-radius: 8px;
+  border-width: 4px;
+  border-style: solid;
+  transition: 0.5s;
+  border-color: white;
+}
+
+.bus-route:hover {
+  background-color: #f3f8e6;
+  color: #000000;
+  border-color: black;
+  transform: scale(1.05);
+}
+
+#bus-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+  column-gap: 16px;
+  row-gap: 20px;
+  padding: 24px;
+  transition: 0.5s;
+}
+
+.serviceNo {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 4px 8px;
+  align-content: center;
+  justify-content: center;
+}
+
+.serviceTitle {
+  border-radius: 4px 4px 0 0;
+  background-color: #97d700;
+  color: #000000;
+  display: grid;
+  grid-template-columns: auto 5vh
+}
+
+.busOperator {
+  border-radius: 0 4px 0 0;
+}
+
+.bus_start {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.bus_dest {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.servicestats {
+  font-family: 'Fira Sans Condensed';
+  margin: 8px;
+}
