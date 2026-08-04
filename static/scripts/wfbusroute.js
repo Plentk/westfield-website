@@ -117,7 +117,7 @@ function renderBarseServe() {
   });
 }
 
-loadFile('../../static/db/westfield/wfbusroute.json');
+loadFile('../../static/db/wfbusroute.json');
 
 
 //      <div class="">
